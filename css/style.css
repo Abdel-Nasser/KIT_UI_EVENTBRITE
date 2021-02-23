@@ -1,0 +1,203 @@
+
+/* reset */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    height: 100%;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*----------------------------------Formulaire----------------------------------*/
+
+.email, .password{
+  
+    max-width: 20rem; 
+   
+}
+
+.mail-pass{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 20rem;
+}
+
+
+.email{
+    display: flex;
+    justify-content: space-between;
+}
+
+.password{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.btn-pos{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.btn-inscription{
+    margin-right: 50rem;
+}
+
+.btn-mail{
+    margin-left: 50rem;
+}
+
+
+
+.fab {
+    font-size: 5rem;
+    color:#007bff ;
+    margin-bottom: 2rem;
+
+}
+
+
+
+
+.fas {
+
+    font-size: 2rem;
+    color: grey;
+    margin-right: 2rem;
+}
+
+
+.fond-formulaire {
+background-color: #E6E6E6;
+
+margin-left: 40rem ;
+margin-right: 40rem;
+
+padding-bottom: 2rem;
+
+border-radius: 10px;
+
+}
+
+/*------------------------ Banner ----------------------------------------------*/
+
+.fond-index{
+    
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+
+/*---------------------------------footer---------------------------------------------------*/
+
+.footer{
+
+    background-color: #007bff;
+    height: 4.3rem;
+    text-align: center;
+}
+
+
+.footer-position{
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap nowrap;
+    align-content: flex-end;
+    margin-top: 55rem;
+}
+
+.text-footer {
+
+text-shadow: aqua;
+color: azure;
+
+padding-top: 1rem;
+
+}
+
+
+/*-----------------------------cards-------------------------------------------*/
+
+    /* cards evenements*/
+.card-header{
+    height: 4rem;
+    text-align: center;
+}
+
+
+.card, .card-body-blue {
+    height: 15rem;
+}
+
+
+
+
+      /*cards villes*/
+
+
+
+  .card-ville, .card-ville-mere, .card-text, p{
+
+
+    background-color: #007bff;  
+
+    border-radius: 5px;
+    color: lavender;
+
+
+
+}
+
+
+
+
+
+.card-ville-mere, .card-ville-padding{
+ 
+    height: 8REM;
+    width: 18rem;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #007bff;
+}
+
+
+.position-cards {
+
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+     margin-top: 7rem;
+
+}
+
+.card-7 {
+
+  margin-left: 1rem;
+
+}
